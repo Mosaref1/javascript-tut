@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+}
+.h_lable{
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.w_lable{
+    margin-left: 18px;
+    text-transform: uppercase;
+}
+.cal{
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    padding:5px 20px;
+    margin-left: 120px;
+    /* margin: auto; */
+}
+span{
+    display: inline-block;
+    background-color: red;
+}
+.res{
+    text-align: center;
+    margin-left: 120px;
+    /* display: inline-block; */
+}
+#Result{
+    text-align: center;
+    background-color: darkgoldenrod;
+    height: 30px;
+}
+
+
+

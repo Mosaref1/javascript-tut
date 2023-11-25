@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -11,16 +12,16 @@
     </header>
     <div class="conatiner">
     <form>
-        <label>height:</label>
+        <label class="h_lable">height:</label>
         <input type="text" id="height">
         <br>
-        <label for="weight">Weight:</label>
+        <label class="w_lable">Weight:</label>
         <input type="text" id="weight">
         <br>
-        <button>Calculator</button>
+        <button class="cal">Calculator</button>
         <br>
-        <label>Results</label>
-        <span id="Result"></span>
+        <label class="res">Results</label>
+        <p id="Result"> </p>
     </form>
     </div>
     <script src="app.js"></script>
