@@ -12,11 +12,19 @@ const promeisOne = new Promise(function(resolve, reject){
     // Do an async task 
     // DB calls 
     setTimeout(function(){
-        console.log('one task completed');
+        // console.log('one task completed');
         resolve()
     },1000)
 })
 promeisOne.then(function(){
-    console.log('one promise consume');
+    // console.log('one promise consume');
 })
+
+let myname = 'Mosaref     '
+
+console.log(myname.length);
+
+
+
+
 
