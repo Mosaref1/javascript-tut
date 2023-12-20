@@ -27,10 +27,18 @@ let maxV = Number.MAX_VALUE;
 
 // console.log(maxV);
 let x = Number.EPSILON
-console.log(x);
+// console.log(x);
 
+let myarr = Array.from("abcdefghijk")
 
+// console.log(myarr.length);
 
+let word = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+const restr = word.replaceAll(' ', '')
+console.log(restr);
+console.log(restr.length);
+
+// next day https://www.w3schools.com/js/js_string_methods.asp
 
 
 
