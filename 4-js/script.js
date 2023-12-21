@@ -29,17 +29,28 @@ let maxV = Number.MAX_VALUE;
 let x = Number.EPSILON
 // console.log(x);
 
-let myarr = Array.from("abcdefghijk")
+let myra = Array.from("abcdefghijk")
 
-// console.log(myarr.length);
+// console.log(myra.length);
 
 let word = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
-const restr = word.replaceAll(' ', '')
-console.log(restr);
-console.log(restr.length);
+const rester = word.replaceAll(' ', '')
+// console.log(rester);
+console.log(rester.length);
 
 // next day https://www.w3schools.com/js/js_string_methods.asp
 
+function change_para(){
+    let text = document.getElementById("demo").innerHTML;
+    document.getElementById("demo").innerText = "hello Mosaref paik"
+    document.body.style.backgroundColor="red"
+}
+function change_para2(){
+    document.body.style.backgroundColor="green"
+}
+function change_para3(){
+    document.body.style.backgroundColor="blue"
+}
 
 
 

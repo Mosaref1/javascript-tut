@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+/* variable */
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+}
+
+
+/* navbar design */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: deeppink;
+    /* color: #fff; */
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right ul li {
+    display: inline;
+    margin-right: 20px;
+    /* text-decoration: none; */
+}
+
+.right ul li a {
+    text-decoration: none;
+    background-color: green;
+    padding: 4px 10px;
+    border-radius: 7px;
+    color: #fff;
+    transition: .3s;
+}
+
+.right ul li a:hover {
+    background-color: blue;
+}
+
+.login a {
+    text-decoration: none;
+    background-color: var(--blue);
+    padding: 5px 40px 5px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: var(--white);
+}
+
+.login a:hover {
+    background-color: green;
+}
+
+/* main container */
+
+.conatiner {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkblue;
+    height: 100vh;
+}
+
+.hero-left {
+    /* margin-left: 30px; */
+    margin-top: 80px;
+    width: 70vmin;
+    color: #fff;
+}
+
+.hero-left h1 {
+    margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.secrch {
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 2px 3px 15px black;
+}
+
+.ser-box {
+    display: flex;
+}
+
+#btn {
+    /* padding: 10px 5px; */
+    /* padding: 5px; */
+    box-shadow: 2px 3px 15px black;
+    border-radius: 5px;
+    outline: none;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    display: inline-block;
+
+}
+
+#btn img {
+    width: 50px;
+    height: 40px;
+}
+
+.hero-right img {
+    margin-top: 100px;
+}
+
+/* 3rd section  */
+.feature {
+    background-color: var(--blue);
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.box {
+    background-color: grey;
+    width: 300px;
+    height: 500px;
+}
+
+.box img {
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 12px;
+}
+
+.price {
+    text-align: left;
+    margin-left: 15px;
+    /* margin-bottom: 5px; */
+}
+
+.price h3,
+p,
+button {
+    margin: 5px 15px;
+    /* color: #fff; */
+}
+
+.price button {
+    background-color: yellow;
+    padding: 5px 10px;
+    /* outline: none; */
+    /* box-shadow: none; */
+}
