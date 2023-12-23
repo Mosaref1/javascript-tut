@@ -41,11 +41,27 @@ let mynum =[
     [4,5,6],
     [7,8,9]
 ]
-// console.log(mynum);
 
 console.log(mynum[1][2]);
 
 // for (const i of mynum) {
 //   console.log(i[2]);  
 // }
+
+let ulList1 = ["Home","About","Contact","Services","Blogs"]
+
+let ulList = ulList1.concat(fruits,array,array2);
+
+let text = "<ul/>";
+
+ulList.forEach(myfun)
+text += "</ul>";
+
+document.querySelector(".navbar").innerHTML= text;
+
+function myfun(val){
+    text += '<li>' + val + "</li>"
+};
+
+
 
