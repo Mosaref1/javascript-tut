@@ -50,18 +50,41 @@ console.log(mynum[1][2]);
 
 let ulList1 = ["Home","About","Contact","Services","Blogs"]
 
-let ulList = ulList1.concat(fruits,array,array2);
+let ulList = ulList1.concat(array);
 
 let text = "<ul/>";
 
 ulList.forEach(myfun)
 text += "</ul>";
 
-document.querySelector(".navbar").innerHTML= text;
+let navbar = document.querySelector(".navbar");
+navbar.innerHTML = text
 
 function myfun(val){
     text += '<li>' + val + "</li>"
 };
 
+// function sumInput() {
 
+//     let numbers = [];
+  
+//     while (true) {
+  
+//       let value = prompt("A number please?", 0);
+  
+//       // should we cancel?
+//       if (value === "" || value === null || !isFinite(value)) break;
+  
+//       numbers.push(+value);
+//     }
+  
+//     let sum = 0;
+//     for (let number of numbers) {
+//       sum += number;
+//     }
+//     return sum;
+//   }
+  
+//   alert( sumInput() );
+  
 
